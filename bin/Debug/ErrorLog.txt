@@ -1,0 +1,137 @@
+2022/3/21 23:08:01 # 车轮传感器连接失败：端口“COM7”不存在。
+2022/3/24 11:15:44 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:15:54 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:15 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:25 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:33 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:35 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:35 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:36 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:36 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:38 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:39 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:39 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:41 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:42 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:42 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:43 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:45 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:47 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:48 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:49 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:25:49 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:01 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:04 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:05 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:06 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:06 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:07 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:09 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:09 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:10 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:11 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:11 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/24 11:28:11 # SearchforChart出错：关键字 'Over' 附近有语法错误。
+2022/3/25 12:03:15 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:09:00 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:29 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:31 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:32 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:34 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:35 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:36 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:37 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:37 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/25 12:10:38 # GetMeasPrjRecordToday出错：对象名 '计量数据' 无效。
+2022/3/26 22:56:50 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:52 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:53 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:54 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:55 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:57 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:57 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:58 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:58 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:56:59 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:57:00 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 22:57:00 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 22:57:00 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 22:57:00 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 22:57:05 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 22:57:09 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 22:57:10 # SearchforList出错：列名 'BW' 无效。
+2022/3/26 23:00:41 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:00:41 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:00:41 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:00:46 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:00:47 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:01:00 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:01:01 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:02:15 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:02:15 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:02:15 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:02:28 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:03:58 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:03:58 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:03:58 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:04:05 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:06:59 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:06:59 # GetMonthData出错：“)”附近有语法错误。
+2022/3/26 23:06:59 # GetMonthData出错：“)”附近有语法错误。
+2022/3/26 23:06:59 # GetYearData出错：“)”附近有语法错误。
+2022/3/26 23:07:06 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:10 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:12 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:14 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:17 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:17 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:18 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:19 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:25 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:25 # GetMonthData出错：“)”附近有语法错误。
+2022/3/26 23:07:25 # GetMonthData出错：“)”附近有语法错误。
+2022/3/26 23:07:25 # GetYearData出错：“)”附近有语法错误。
+2022/3/26 23:07:46 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:47 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:48 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:48 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:48 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:50 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:51 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:51 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:07:51 # GetDayData出错：“)”附近有语法错误。
+2022/3/26 23:09:21 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:09:21 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:09:21 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:09:28 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:10:37 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:10:37 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:10:37 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:10:40 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:10:41 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:10:42 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:10:42 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:11:13 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:11:14 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:11:14 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:11:20 # GetDayData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:12:03 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:12:03 # GetMonthData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:12:03 # GetYearData出错：列“PZ”不属于表 tempTable。
+2022/3/26 23:15:14 # GetMonthData出错：列“volume”不属于表 tempTable。
+2022/3/26 23:15:14 # GetMonthData出错：列“volume”不属于表 tempTable。
+2022/3/26 23:15:14 # GetYearData出错：列“volume”不属于表 tempTable。
+2022/3/26 23:15:18 # GetDayData出错：列“volume”不属于表 tempTable。
+2022/3/26 23:15:23 # GetDayData出错：列“volume”不属于表 tempTable。
+2022/3/26 23:16:06 # GetMonthData出错：列“volume”不属于表 tempTable。
+2022/3/26 23:16:06 # GetMonthData出错：列“volume”不属于表 tempTable。
+2022/3/26 23:16:06 # GetYearData出错：列“volume”不属于表 tempTable。
+2022/3/28 16:26:10 # SearchforList出错：输入字符串的格式不正确。
+2022/4/7 16:11:12 # WorkerLoginConfrm函数出错：列“UserPhoto”不属于表 tempTable。
+2022/4/7 16:12:46 # WorkerLoginConfrm函数出错：列“UserPhoto”不属于表 tempTable。
+2022/7/15 10:03:43 # CheckRFID出错：对象名 'DB_RFID2Train' 无效。
+2022/7/15 10:04:17 # CheckRFID出错：对象名 'DB_RFID2Train' 无效。
+2022/7/15 10:04:19 # CheckRFID出错：对象名 'DB_RFID2Train' 无效。
+2022/7/15 10:04:48 # CheckRFID出错：对象名 'DB_RFID2Train' 无效。
+2022/7/15 10:04:55 # CheckRFID出错：对象名 'DB_RFID2Train' 无效。
+2022/7/22 14:55:27 # GetAllUser执行出错:列名 'False' 无效。

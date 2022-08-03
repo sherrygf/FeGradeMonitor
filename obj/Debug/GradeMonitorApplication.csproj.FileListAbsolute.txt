@@ -1,0 +1,109 @@
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.8.24-lihui\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.8.24-lihui\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.8.24-lihui\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.8.24-lihui\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.8.24-lihui\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.8.24-lihui\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.8.24-lihui\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.24-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.24-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.24-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.24-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.24-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.24-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.24-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.30-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.30-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.30-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.30-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.30-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.30-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2021.9.30-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.LineChartForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication - 2022.2.21-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe.config
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.pdb
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CopyComplete
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.3.18\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.pdb
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe.config
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.pdb
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CopyComplete
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.exe
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.pdb
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.ReportManagement_Form.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csprojAssemblyReference.cache
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.User_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe.config
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.pdb
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.ReportManagement_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.User_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CopyComplete
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.5\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.pdb
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe.config
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.pdb
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.ReportManagement_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.User_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CopyComplete
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.pdb
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Config_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.DataManage_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.4.7-ywj\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.UserManage_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe.config
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\bin\Debug\GradeMonitorApplication.pdb
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.AssemblyReference.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.MainForm.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Config_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.DataManage_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.ReportManagement_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.UserManage_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.User_Form.resources
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.csproj.CopyComplete
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.exe
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.pdb
+E:\YuAyanoCodes\GradeMonitorApplication-2022.8.1\GradeMonitorApplication\obj\Debug\GradeMonitorApplication.WinForm.ErrorReport_Form.resources

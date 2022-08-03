@@ -1,0 +1,16 @@
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\x86\Debug\GradeMonitorApplication.exe.config
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\x86\Debug\GradeMonitorApplication.exe
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\x86\Debug\GradeMonitorApplication.pdb
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\x86\Debug\Kitware.mummy.Runtime.dll
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\x86\Debug\Kitware.VTK.dll
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\bin\x86\Debug\UHFReader18CSharp.dll
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.csprojAssemblyReference.cache
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.MainForm.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.Properties.Resources.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.WinForm.Login_Form.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.WinForm.Register_Form.resources
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.csproj.GenerateResource.cache
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.csproj.CoreCompileInputs.cache
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.csproj.CopyComplete
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.exe
+E:\MCC\project\MengKuGradeMonitor\GradeMonitorApplication\GradeMonitorApplication\obj\x86\Debug\GradeMonitorApplication.pdb
