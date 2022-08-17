@@ -73,7 +73,7 @@ namespace GradeMonitorApplication.FunctionClass
         void Connect()
         {
             int openResult = 0;
-            openResult = StaticClassReaderB.OpenNetPort(6000, "192.168.2.83", ref fComAdr, ref FrmHandle);
+            openResult = StaticClassReaderB.OpenNetPort(6000, MainForm.ipinfo.rFIDReader, ref fComAdr, ref FrmHandle);
             if (openResult == 0)
             {
                 RetryCount = 0;
@@ -109,10 +109,10 @@ namespace GradeMonitorApplication.FunctionClass
 
             else
             {
-                if (RetryCount == 15)
+                if (RetryCount == 30)
                 {
                     Function.WriteErrorLog("RFID 连接错误,Error code:" + openResult);
-                    //MessageBox.Show(DateTime.Now.ToString()+ "\n30次连接超时,请检查网络环境,或转为手动测量\nError code:" + openResult);
+                    MessageBox.Show(DateTime.Now.ToString()+ "\n30次连接超时,请检查网络环境,或转为手动测量\nError code:" + openResult);
 
                 }
                 if (openResult == 53)//0x35 comportopened
@@ -167,7 +167,10 @@ namespace GradeMonitorApplication.FunctionClass
                 monitorAbort = true;
             }
             //复位
-            tm.Stop();
+            if (tm != null)
+                tm.Stop();
+            else
+                MessageBox.Show("RFID无连接");
             Thread.Sleep(100);
             monitorAbort = false;
             RetryCount = 0;
@@ -218,7 +221,7 @@ namespace GradeMonitorApplication.FunctionClass
 
                 if (temp.Substring(0, 12) == "11 00 EE 00 ")
                 {
-                    TrainIsCome = true;
+                    
                     if (temp.Length >= 54)
                     //temp = temp.Substring(0, 54);
                     {
@@ -226,6 +229,7 @@ namespace GradeMonitorApplication.FunctionClass
 
                     }
                     MainForm.database.GetTrainNameFromRFID(temp, ref TrainName);
+                    TrainIsCome = true;
                     // if (temp == "11 00 EE 00 E2 80 68 94 00 00 50 1D 5D 21 61 12 0A EC " || temp == "11 00 EE 00 E2 80 68 94 00 00 40 1D 5D 21 61 10 A8 8D ")
                     //     TrainName = "H002";
                     // else if (temp == "11 00 EE 00 E2 80 68 94 00 00 50 1D 5D 21 61 0F 6E 27 " || temp == "11 00 EE 00 E2 80 68 94 00 00 40 1D 5D 21 5D D6 90 31 ")

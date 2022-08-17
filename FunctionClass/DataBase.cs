@@ -227,10 +227,13 @@ namespace GradeMonitorApplication.FunctionClass
                 request = string.Format("select TOP(1) [PW],[MeasureTime] from DB_TrainMeasureResult where WB = 2 order by [measureTime] desc");
             else if (type == 2)//本周
             {
-                DateTime left, right;
-                left = day.AddDays((Convert.ToInt32(day.DayOfWeek) - 1) % 7);
-                right = left.AddDays(7);
-                request = string.Format("select [PW],[MeasureTime] from DB_TrainMeasureResult where WB = 2 and [measureTime]>'{0}' and [measureTime]<'{1}'", left.ToString("yyyy-MM-dd"), right.ToString("yyyy-MM-dd"));
+                DateTime yearFirstDay = new DateTime(DateTime.Now.Year, 1, 1);
+                int yearFirstDayWeek = Convert.ToInt32(yearFirstDay.DayOfWeek) - 1;
+                int weekIndex = (DateTime.Now.DayOfYear - (6 - yearFirstDayWeek)) / 7 + 2;
+                DateTime weekTime = yearFirstDay.AddDays((weekIndex - 1) * 7);
+                DateTime startTime = weekTime.AddDays(-(Convert.ToInt32(weekTime.DayOfWeek) - 1) % 7);
+                DateTime endTime = startTime.AddDays(7);
+                request = string.Format("select [PW],[MeasureTime] from DB_TrainMeasureResult where WB = 2 and [measureTime]>'{0}' and [measureTime]<'{1}'", startTime.ToString("yyyy-MM-dd"), endTime.ToString("yyyy-MM-dd"));
             }
             else if (type == 3)//本月
             {
@@ -776,10 +779,21 @@ namespace GradeMonitorApplication.FunctionClass
         {
             string FID = time.ToString("yyyyMMddHHmmss");
             string measureTime = time.ToString();
-            string TrainName = "H001";
+            string TrainName = "";
+            if (MainForm.rfid != null)
+                TrainName = MainForm.TrainName;
+            else
+                TrainName = "H001";
             string LY = "G884";
-            double JZ = weight - 12.59;
-            double BZ = JZ / volumn;
+            double JZ = weight - 12.778*count;
+            volumn = Math.Round(volumn - count * 7.0, 3);
+            double BZ = Math.Round(JZ / volumn, 3);
+            if (BZ >= 2.2)
+                pw = Math.Round(16.423 * BZ - 6.8271, 3);
+            else if (BZ >= 2)
+                pw = Math.Round(26.983 * BZ - 24.297, 3);
+            else
+                pw = Math.Round(14.19 * BZ + 10.687, 3);
             //连接数据库
             string sql;
             SqlConnection conn;
@@ -819,9 +833,10 @@ namespace GradeMonitorApplication.FunctionClass
         public bool AddCarResult(DateTime time,double volumn,double MZ,double speed)
         {
             string FID = time.ToString("yyyyMMddHHmmss");
-            double JZ = MZ - 12.59;
-            double BZ = JZ / volumn;
+            double JZ = MZ - 12.778;
             volumn -= 7.0;
+            double BZ = JZ / volumn;
+           
             //连接数据库
             string sql;
             SqlConnection conn;

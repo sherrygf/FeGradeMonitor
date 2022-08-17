@@ -1,1 +1,53 @@
 2022/8/1 9:00:18 # 登录界面Login_Form加载出错!
+2022/8/4 9:11:51 # RFID 连接错误,Error code:48
+2022/8/4 9:14:18 # RFID 连接错误,Error code:48
+2022/8/4 9:15:11 # RFID 连接错误,Error code:48
+2022/8/4 9:20:05 # RFID 连接错误,Error code:48
+2022/8/4 9:21:43 # RFID 连接错误,Error code:48
+2022/8/4 9:23:08 # RFID 连接错误,Error code:48
+2022/8/4 9:24:22 # RFID 连接错误,Error code:48
+2022/8/4 9:28:08 # RFID 连接错误,Error code:48
+2022/8/4 9:41:42 # RFID 连接错误,Error code:48
+2022/8/5 9:24:09 # RFID 连接错误,Error code:48
+2022/8/5 9:25:00 # RFID 连接错误,Error code:48
+2022/8/17 11:27:08 # RFID 连接错误,Error code:48
+2022/8/17 17:01:59 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 17:14:58 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 18:07:06 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 18:14:44 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 19:19:32 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 19:58:12 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 20:18:43 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 20:20:58 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 20:33:46 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 20:36:32 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 21:05:38 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 21:12:53 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 21:27:06 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 21:29:32 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 21:44:55 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 22:33:05 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 22:36:43 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 22:36:43 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 22:50:12 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。
+2022/8/17 22:50:12 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。

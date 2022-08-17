@@ -19,11 +19,11 @@ namespace GradeMonitorApplication.WinForm
 
         private void Config_Form_Load(object sender, EventArgs e)
         {
-            textBoxMZ.Text = MainForm.ipinfo.CameraMZ;
-            textBoxPZ.Text = MainForm.ipinfo.CameraPZ;
-            textBoxHX.Text = MainForm.ipinfo.ScanerHX;
-            textBoxZX.Text = MainForm.ipinfo.ScanerZX;
-            textBoxReader.Text = MainForm.ipinfo.RFIDReader;
+            textBoxMZ.Text = MainForm.ipinfo.cameraMZ;
+            textBoxPZ.Text = MainForm.ipinfo.cameraPZ;
+            textBoxHX.Text = MainForm.ipinfo.scanerHX;
+            textBoxZX.Text = MainForm.ipinfo.scanerZX;
+            textBoxReader.Text = MainForm.ipinfo.rFIDReader;
         }
 
         private void Button_save_Click(object sender, EventArgs e)

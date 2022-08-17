@@ -183,8 +183,8 @@ namespace GradeMonitorApplication.FunctionClass
         #endregion
           static FileStream fs ;
           static FileStream ft ;
-          string fsn = "E;//测试数据//saomiaoxian_H-"+DateTime.Now.ToString("yyyyMMddHHmmss")+".txt";
-          string ftn = "E;//测试数据//saomiaoxian_Z-" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt";
+          string fsn = "E://测试数据//saomiaoxian_H-"+DateTime.Now.ToString("yyyyMMddHHmmss")+".txt";
+          string ftn = "E://测试数据//saomiaoxian_Z-" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt";
         Button Flag;
         #endregion
 
@@ -588,7 +588,7 @@ namespace GradeMonitorApplication.FunctionClass
 
                                     dAverageY_XLeft /= nCount_XLeft;
                                     dAverageY_XRight /= nCount_XRight;
-                                    if (dAverageY_XLeft < 4 && dAverageY_XRight > 4) //左边来车（此处需要调试：判断车来的平均Y值）
+                                    if (dAverageY_XLeft < 4) //左边来车（此处需要调试：判断车来的平均Y值）
                                     {
                                         trainDirect_MZ = TRAINDIRECTION.WEST;//正向
                                         strDirectState_MZ = "车头进";
@@ -599,7 +599,7 @@ namespace GradeMonitorApplication.FunctionClass
                                     {
                                         strDirectState_MZ = "未到达";
                                         Unarrival_count++;
-                                        if (Unarrival_count > 1000)//累计1000次扫描(约20s后)仍无法确定来向即判定为误报，执行测量中断
+                                        if (Unarrival_count > 250)//累计250次扫描(约10s后)仍无法确定来向即判定为误报，执行测量中断
                                             StopMeasure();
                                     }
 
@@ -670,7 +670,7 @@ namespace GradeMonitorApplication.FunctionClass
             {
 
                 //socket连接
-                this.socket_LMS_MZHX.Connect(MainForm.ipinfo.ToIPAddress(MainForm.ipinfo.ScanerHX),2112);
+                this.socket_LMS_MZHX.Connect(MainForm.ipinfo.ToIPAddress(MainForm.ipinfo.scanerHX),2112);
                 //this.socket_LMS_MZHX.Connect(new IPAddress(new byte[] { 192, 168, 110, 154 }), 2112);
                 //socket接收
                 this.socket_LMS_MZHX.BeginReceive();//开始接收数据（异步接收），接收到数据时，触发事件DataReceivedEvent?.Invoke(this, EventArgs.Empty);，然后MeasureModule执行事件响应函数ReceivedEventResponse
@@ -721,7 +721,7 @@ namespace GradeMonitorApplication.FunctionClass
         {
             try
             {
-                this.socket_LMS_MZZX.Connect(MainForm.ipinfo.ToIPAddress(MainForm.ipinfo.ScanerZX), 2112);
+                this.socket_LMS_MZZX.Connect(MainForm.ipinfo.ToIPAddress(MainForm.ipinfo.scanerZX), 2112);
                 //this.socket_LMS_MZZX.Connect(new IPAddress(new byte[] { 192, 168, 110, 155 }), 2112);
                 this.socket_LMS_MZZX.BeginReceive();
 
@@ -866,13 +866,14 @@ namespace GradeMonitorApplication.FunctionClass
         /// </summary>
         public void StopMeasure()
         {
+            Function.WriteMissingLog();
             //中断体积数据整理与计算线程
             threadCalculateVolume_MZ.Abort();
             threadProcessMeasData_MZ.Abort();
             bIsMeasureFinish_MZ = true;
             bIsSaveDataFinish_MZ = true;
             bIsCalVolumFinish_MZ = true;
-            Flag.BackgroundImage = Image.FromFile(".\\UI\\运行128.png");
+            Flag.BackgroundImage = Image.FromFile(".\\UI\\启动128.png");
             //然后通知扫描仪停止运行
             if (this.socket_LMS_MZHX.IsConnected && this.socket_LMS_MZZX.IsConnected)
             {
@@ -891,6 +892,7 @@ namespace GradeMonitorApplication.FunctionClass
             }
             fs.Close();
             ft.Close();
+            InitAllVariable();
             //如果已经有数据输出到日志则删除
             if (bIsOutPutScanData_MZ)
             {
@@ -927,7 +929,7 @@ namespace GradeMonitorApplication.FunctionClass
             }
             fs.Close();
             ft.Close();
-            Flag.BackgroundImage = Image.FromFile(".\\UI\\运行128.png");
+            Flag.BackgroundImage = Image.FromFile(".\\UI\\启动128.png");
             //输出体积数据(保存为txt体积日志)
             DateTime now = DateTime.Now;
             string VolumeLogsSavePath = "./ProjectData/VolumeLogs/" + now.Year.ToString() + now.Month.ToString() + now.Day.ToString() + "_" + now.Hour.ToString() + now.Minute.ToString() + ".txt";
@@ -955,50 +957,76 @@ namespace GradeMonitorApplication.FunctionClass
             List<double> Weights = new List<double>();
             double Volumn = 0, weight = 0,sp=0;
             List<double> speed = new List<double>();
-            if (filename != "")//如果成功找到对应的重量文件
+            try
             {
-                GetWeights(filename, ref Weights, ref speed);
-                int fin = 2;//2、完备
-                int i = 0;
-                for (; i < Weights.Count; i++)
+                if (filename != "")//如果成功找到对应的重量文件
                 {
-                    Volumn += measTrain_MZ.meascarvollst[i].VolumeFrombase;
-                    weight += Weights[i];
-                    sp += speed[i];
-                    if (Weights[i] < 15.0)
-                        fin = 3;//3、取到重量数据，有“n”车厢重量数据有误
-                    MainForm.database.AddCarResult(now, measTrain_MZ.meascarvollst[i].VolumeFrombase, Weights[i], speed[i]);
+                    GetWeights(filename, ref Weights, ref speed);
+                    int fin = 2;//2、完备
+                    int i = 0, limit = Weights.Count;
+                    if (measTrain_MZ.meascarvollst.Count < Weights.Count)
+                    {
+                        fin = 5;//5、体积不足的情况
+                        limit = measTrain_MZ.meascarvollst.Count;
+                    }
+                    for (; i < limit; i++)
+                    {
+                        Volumn += measTrain_MZ.meascarvollst[i].VolumeFrombase;
+                        weight += Weights[i];
+                        sp += speed[i];
+                        if (Weights[i] < 15.0)
+                            fin = 3;//3、取到重量数据，有“n”车厢重量数据有误
+                        MainForm.database.AddCarResult(now, measTrain_MZ.meascarvollst[i].VolumeFrombase, Weights[i], speed[i]);
+                    }
+                    if (measTrain_MZ.meascarvollst.Count < Weights.Count)
+                    {
+                        for (; i < Weights.Count; i++)
+                        {
+                            weight += Weights[i];
+                            sp += speed[i];
+                            MainForm.database.AddCarResult(now, 0, Weights[i], speed[i]);
+                        }
+                        MainForm.database.AddTrainResult(now, Weights.Count, Volumn, weight, 0, speed.Average(), fin);
+                    }
+                    else if (measTrain_MZ.meascarvollst.Count > Weights.Count)
+                    {
+                        fin = 4;//4、取到重量数据，重量数据个数不够
+                        for (; i < measTrain_MZ.meascarvollst.Count; i++)
+                        {
+                            Volumn += measTrain_MZ.meascarvollst[i].VolumeFrombase;
+                            MainForm.database.AddCarResult(now, measTrain_MZ.meascarvollst[i].VolumeFrombase, 0, speed[i]);
+                        }
+                        if (speed.Count != 0)
+                            MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, 0, 0, speed.Average(), fin);
+                        else
+                            MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, 0, 0, 0, fin);
+                    }
+                    else if (fin == 3)
+                        MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, 0, 0, speed.Average(), fin);
+                    else
+                    {
+                        MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, weight, 0, speed.Average(), fin);
+                    }
                 }
-                if (measTrain_MZ.meascarvollst.Count != Weights.Count)
+                else//如果没找到则只存体积
                 {
-                    fin = 4;//4、取到重量数据，重量数据个数不够
+                    int fin = 1;//1、未取到重量数据
+                    int i = 0;
                     for (; i < measTrain_MZ.meascarvollst.Count; i++)
                     {
                         Volumn += measTrain_MZ.meascarvollst[i].VolumeFrombase;
-                        MainForm.database.AddCarResult(now, measTrain_MZ.meascarvollst[i].VolumeFrombase, 0, speed[i]);
+                        MainForm.database.AddCarResult(now, measTrain_MZ.meascarvollst[i].VolumeFrombase, 0, 0);
                     }
-                    MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, 0, 0, speed.Average(), fin);
+                    MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, weight, 0, 0, fin);
                 }
-                else if (fin == 3)
-                    MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, 0, 0, speed.Average(), fin);
-                else
-                {
-                    MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, weight, 0, speed.Average(), fin);
-                }
+                //清空变量并初始化
+                InitAllVariable();
             }
-            else//如果没找到则只存体积
+            catch(Exception e)
             {
-                int fin = 1;//1、未取到重量数据
-                int i = 0;
-                for (; i < measTrain_MZ.meascarvollst.Count; i++)
-                {
-                    Volumn += measTrain_MZ.meascarvollst[i].VolumeFrombase;
-                    MainForm.database.AddCarResult(now, measTrain_MZ.meascarvollst[i].VolumeFrombase, 0, 0);
-                }
-                MainForm.database.AddTrainResult(now, measTrain_MZ.meascarvollst.Count, Volumn, weight, 0, 0, fin);
+                Function.WriteErrorLog("数据存储出错：" + e.Message);
+                InitAllVariable();
             }
-            //清空变量并初始化
-            InitAllVariable();
 
             // //车走完后休息五分钟再重新启动测量
             // Thread.Sleep(10000);
@@ -1872,29 +1900,37 @@ namespace GradeMonitorApplication.FunctionClass
         /// <returns>有或没有</returns>
         bool SearchXMLZFile(ref string filename)
         {
-            DirectoryInfo info = new DirectoryInfo("Z://");
-            FileInfo[] fl = info.GetFiles();
-            List<string> names = new List<string>();
-            foreach (FileInfo f in fl)
+            try
             {
-                names.Add(f.Name.ToString());
-            }
-            string target = names.Max().Split('.')[0];
-            int year = Convert.ToInt32(target.Substring(0, 4));
-            int month = Convert.ToInt32(target.Substring(4, 2));
-            int day = Convert.ToInt32(target.Substring(6, 2));
-            int hour = Convert.ToInt32(target.Substring(8, 2));
-            int minute = Convert.ToInt32(target.Substring(10, 2));
-            int second = Convert.ToInt32(target.Substring(12, 2));
-            DateTime dt = new DateTime(year, month, day, hour, minute, second);
+                DirectoryInfo info = new DirectoryInfo("Z://");
+                FileInfo[] fl = info.GetFiles();
+                List<string> names = new List<string>();
+                foreach (FileInfo f in fl)
+                {
+                    names.Add(f.Name.ToString());
+                }
+                string target = names.Max().Split('.')[0];
+                int year = Convert.ToInt32(target.Substring(0, 4));
+                int month = Convert.ToInt32(target.Substring(4, 2));
+                int day = Convert.ToInt32(target.Substring(6, 2));
+                int hour = Convert.ToInt32(target.Substring(8, 2));
+                int minute = Convert.ToInt32(target.Substring(10, 2));
+                int second = Convert.ToInt32(target.Substring(12, 2));
+                DateTime dt = new DateTime(year, month, day, hour, minute, second);
 
-            if ((DateTime.Now - dt).TotalMinutes < 10.0)
-            {
-                filename = "Z://" + target + ".xml";
-                return (true);
+                if ((DateTime.Now - dt).TotalMinutes < 10.0)
+                {
+                    filename = "Z://" + target + ".xml";
+                    return (true);
+                }
+                else
+                    return (false);
             }
-            else
+            catch(Exception e)
+            {
+                Function.WriteErrorLog("SearchXMLZFile出错：" + e.Message);
                 return (false);
+            }
 
         }
         /// <summary>

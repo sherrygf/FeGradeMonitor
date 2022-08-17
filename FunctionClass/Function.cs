@@ -78,6 +78,12 @@ namespace GradeMonitorApplication.FunctionClass
             SaveToTxt(str, AppDomain.CurrentDomain.BaseDirectory + "ErrorLog.txt");
         }
 
+        static public void WriteMissingLog()
+        {
+            string str = DateTime.Now.ToString() + " # " + "RFID误触发自动测量";
+            SaveToTxt(str, AppDomain.CurrentDomain.BaseDirectory + "MissingLog.txt");
+        }
+
         #endregion
 
         #region 图片操作

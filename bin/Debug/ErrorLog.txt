@@ -135,3 +135,5 @@
 2022/7/15 10:04:48 # CheckRFID出错：对象名 'DB_RFID2Train' 无效。
 2022/7/15 10:04:55 # CheckRFID出错：对象名 'DB_RFID2Train' 无效。
 2022/7/22 14:55:27 # GetAllUser执行出错:列名 'False' 无效。
+2022/8/17 16:52:05 # object disposed exception: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。

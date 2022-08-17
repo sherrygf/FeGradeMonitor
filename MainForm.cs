@@ -24,6 +24,7 @@ namespace GradeMonitorApplication
         MeasureModule measureModule;
         Thread AutoMeasure;
         public static RFIDModule rfid = new RFIDModule();
+        public static string TrainName="H111";
         public static IPConfigInfo ipinfo = new IPConfigInfo();
         /// <summary>
         /// 当前折线图加载数据的范围
@@ -224,7 +225,7 @@ namespace GradeMonitorApplication
 
             //设置定时刷新器——刷新界面内容
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 2000;//每60s自动触发一次
+            timer.Interval = 60000;//每60s自动触发一次
             timer.Tick += new EventHandler(AutoRefresh);
             timer.Start();
         }
@@ -353,7 +354,7 @@ namespace GradeMonitorApplication
                 chart1.ChartAreas[0].AxisX.LabelStyle.ForeColor = Color.Transparent; //x轴数值为透明色
                 for (int i = 0; i < X.Count; i++)
                 {
-                    chart1.Series[0].Points.AddXY(X[i].Split(' ')[1], Y[i]);
+                    //chart1.Series[0].Points.AddXY(X[i].Split(' ')[1], Y[i]);
                     chart1.Series[1].Points.AddXY(X[i].Split(' ')[1], Y[i]);
                 }
             }
@@ -698,10 +699,10 @@ namespace GradeMonitorApplication
             if (m_lUserIDMZ < 0)
             {
                 //string DVRIPAddress = "192.168.110.152"; //设备IP地址或者域名
-                string DVRIPAddress = ipinfo.CameraMZ;
+                string DVRIPAddress = ipinfo.cameraMZ;
                 int DVRPortNumber = 8000;//设备服务端口号
-                string DVRUserName = ipinfo.OtherValues["CameraUser"];//设备登录用户名
-                string DVRPassword = ipinfo.OtherValues["CameraPW"];//设备登录密码
+                string DVRUserName = ipinfo.otherValues["CameraUser"];//设备登录用户名
+                string DVRPassword = ipinfo.otherValues["CameraPW"];//设备登录密码
 
                 CHCNetSDK.NET_DVR_DEVICEINFO_V30 DeviceInfo = new CHCNetSDK.NET_DVR_DEVICEINFO_V30();
 
@@ -733,10 +734,10 @@ namespace GradeMonitorApplication
             if (m_lUserIDPZ < 0)
             {
                 //string DVRIPAddress = "192.168.110.151"; //设备IP地址或者域名
-                string DVRIPAddress = ipinfo.CameraPZ;
+                string DVRIPAddress = ipinfo.cameraPZ;
                 int DVRPortNumber = 8000;//设备服务端口号
-                string DVRUserName = ipinfo.OtherValues["CameraUser"];//设备登录用户名
-                string DVRPassword = ipinfo.OtherValues["CameraPW"];//设备登录密码
+                string DVRUserName = ipinfo.otherValues["CameraUser"];//设备登录用户名
+                string DVRPassword = ipinfo.otherValues["CameraPW"];//设备登录密码
 
                 CHCNetSDK.NET_DVR_DEVICEINFO_V30 DeviceInfo = new CHCNetSDK.NET_DVR_DEVICEINFO_V30();
 
@@ -866,6 +867,7 @@ namespace GradeMonitorApplication
                     if(rfid.TrainIsCome)
                     {
                         rfid.TrainIsCome = false;
+                        TrainName = rfid.TrainName;
                         //变色表示测量开始
                         button_Start.BackgroundImage = Image.FromFile(".\\UI\\正在运行128.png");
                         measureModule = new MeasureModule(button_Start);  //初始化自动测量模块
@@ -874,7 +876,7 @@ namespace GradeMonitorApplication
                         //停止监视器并重置变量
                         rfid.StopMonitor();
                         //等待列车通过
-                        Thread.Sleep(150000);
+                        Thread.Sleep(10000);
                         
                         //重新启动monitor监视器
                         rfid.StartMonitor();

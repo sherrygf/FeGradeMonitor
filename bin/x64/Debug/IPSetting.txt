@@ -1,0 +1,7 @@
+CameraMZ:192.168.104.33
+CameraPZ:192.168.104.33
+ScanerHX:192.168.110.155
+ScanerZX:192.168.110.154
+RFIDReader:192.168.110.159
+CameraUser:admin
+CameraPW:qazw1234
